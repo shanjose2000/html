@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>htmllab1</title>
+</head>
+<body>
+	<form>
+
+	<label for="name">Name:</label>
+	<input type="text" id="name" placeholder="Enter name" required maxlength="25">
+	<br><br>
+	<label for="email">Email:</label>
+	<input type="email" id="email" placeholder="Enter email" value="test@example.com" required autofocus>
+	<br><br>
+	<label for="passwd">Password</label>
+	<input type="Password" id="passwd" placeholder="Enter password" required minlength="6">
+	<br><br>
+	<label for="catgry">Category:</label>
+	<select id="catgry" required>
+		<option>Student</option>
+		<option>Employee</option>
+		<option selected>Freelancer</option>
+	</select>
+
+	<br><br>
+	<label for="ed">Event Date</label>
+	
+	<input type="date" id="ed" required>
+	<br><br>
+	<label for="ticket" >Tickets:</label>
+	<input type="radio" id="ticket" name="ticket" value="1 ticket" required>1 ticket
+	<input type="radio" id="ticket" name="ticket" value="2 ticket" required checked>2 ticket
+	<input type="radio" id="ticket" name="ticket" value="3 ticket" required>3 ticket
+	<br><br>
+
+	<label for="op"></label>
+
+	<input type="checkbox" name="" id="op" required>Online Payment
+	<br><br>
+	<label for="note">Notes:</label>
+	<br>
+	<textarea rows = "5" cols = "50" name = "notes" id="note" placeholder="Enter Notes"></textarea>
+	<br><br>
+	<input type="submit" value="submit">
+
+</form>
+</body>
+</html>
